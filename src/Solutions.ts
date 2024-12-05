@@ -3,6 +3,7 @@ import {day01} from "./day01/HistorianHysteria";
 import {day02} from "./day02/RedNosedReports";
 import {day03} from "./day03/MullItOver";
 import {day04} from "./day04/CeresSearch";
+import {day05} from "./day05/PrintQueue";
 
 export function getSolutions(): Solution[] {
 	return [
@@ -10,7 +11,7 @@ export function getSolutions(): Solution[] {
 		day02,
 		day03,
 		day04,
-		// day05,
+		day05,
 		// day06,
 		// day07,
 	];
