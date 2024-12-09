@@ -7,10 +7,11 @@ import {day05} from "./day05/PrintQueue";
 import {day06} from "./day06/GuardGallivant";
 import {day07} from "./day07/BridgeRepair";
 import {day08} from "./day08/ResonantCollinearity";
+import {day09} from "./day09/DiskFragmenter";
 
 export function getSolutions(): Solution[] {
 	return [
 		day01, day02, day03, day04, day05, day06,
-		day07, day08,
+		day07, day08, day09,
 	];
 }
