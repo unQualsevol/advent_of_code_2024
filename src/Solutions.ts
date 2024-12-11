@@ -9,10 +9,11 @@ import {day07} from "./day07/BridgeRepair";
 import {day08} from "./day08/ResonantCollinearity";
 import {day09} from "./day09/DiskFragmenter";
 import {day10} from "./day10/HoofIt";
+import {day11} from "./day11/PlutonianPebbles";
 
 export function getSolutions(): Solution[] {
 	return [
 		day01, day02, day03, day04, day05, day06,
-		day07, day08, day09, day10,
+		day07, day08, day09, day10, day11,
 	];
 }
