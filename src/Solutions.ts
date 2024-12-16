@@ -13,11 +13,12 @@ import {day11} from "./day11/PlutonianPebbles";
 import {day12} from "./day12/GardenGroups";
 import {day13} from "./day13/ClawContraption";
 import {day14} from "./day14/RestroomRedoubt";
+import {day15} from "./day15/WarehouseWoes";
 
 export function getSolutions(): Solution[] {
 	return [
 		day01, day02, day03, day04, day05, day06,
 		day07, day08, day09, day10, day11, day12,
-		day13, day14,
+		day13, day14, day15,
 	];
 }
